@@ -1,0 +1,542 @@
+* ¨ {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+/* ---------- Variantes ---------- */
+:root {
+        --blanco: #FFF;
+        --amarillo-1: #F2B72F;
+        --gris-1: #F1F1F1;
+        --gris-2: #C0C0C0;
+        --gris-3: #909090;
+        --gris-4: #606060;
+        --negro-1: #0E1011;
+        --negro-2: #181A1B;
+}
+
+/* ------------------------------ */
+
+
+
+/*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+h1 {
+        font-family: "Bricolage Grotesque";
+        font-size: 10rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 10rem;
+}
+
+
+h2 {
+        font-family: "Bricolage Grotesque";
+        font-size: 9.375rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 9.375rem;
+}
+
+
+h3 {
+        font-family: "Bricolage Grotesque";
+        font-size: 7.5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 7.5rem;
+}
+
+
+h4 {
+        font-family: "Bricolage Grotesque";
+        font-size: 5.7rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 6.6rem;
+}
+
+
+h5 {
+
+        font-family: "Bricolage Grotesque";
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 5.5rem;
+}
+
+
+h6 {
+
+        font-family: "Bricolage Grotesque";
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 4.4rem;
+}
+
+/*-------------------------------------------------*/
+
+
+
+/*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+
+.h1-inter {
+        font-family: "Inter";
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        display: flex;
+}
+
+
+.h2-inter {
+        font-family: "Inter";
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        display: flex;
+
+}
+
+
+.h3-inter {
+        font-family: "Inter";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3rem;
+        display: flex;
+}
+
+
+.h4-inter {
+        font-family: "Inter" !important;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5rem;
+        display: flex;
+}
+
+
+.h5-inter {
+        font-family: "Inter";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        display: flex;
+}
+
+
+.h6-inter {
+        font-family: "Inter";
+        font-size: 1.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625rem;
+        display: flex;
+}
+
+
+.p-xl {
+        font-family: "Inter";
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.2rem;
+}
+
+.p-l {
+        font-family: "Inter";
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.8rem;
+}
+
+
+p {
+        color: var(--Gris-2, #C0C0C0);
+        font-family: "Inter";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        /* 2.025rem */
+}
+
+
+.p-s {
+        font-family: "Inter";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.025rem;
+}
+
+
+/*-------------------------------------------------*/
+
+
+
+/*---------Body y generales-----------*/
+
+body {
+        background-color: var(--negro-1)
+}
+
+
+a {
+        color: inherit;
+        text-decoration: none;
+        font-family: "Bricolage Grotesque" !important;
+        font-weight: 800;
+
+
+}
+
+
+button {
+        padding: 1rem 1rem;
+        border-bottom: 2px solid var(--amarillo-1) !important;
+        border: none;
+        font-family: "Bricolage Grotesque" !important;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40.8px;
+        text-align: center;
+        background: none;
+        width: fit-content;
+        color: var(--blanco);
+        box-shadow: none;
+
+}
+
+
+
+
+.navbar {
+        background-color: var(--negro-1) !important;
+        color: var(--blanco) !important;
+        justify-content: right;
+}
+
+
+
+.nav-link {
+        color: var(--blanco) !important;
+}
+
+
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+
+.nav-link {
+        color: var(--blanco) !important;
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------Home*/
+
+
+/*--------H1 y primera imagen ------------*/
+.imagen-inicial-home-h1 {
+        padding-top: 0.3rem;
+        display: flex;
+        justify-content: flex-end;
+
+}
+
+
+.caja-h1 {
+        display: flex;
+        padding: 6rem 14.375rem;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        gap: 0.625rem;
+        align-self: stretch;
+}
+
+
+.titular-principal {
+        color: var(--blanco);
+
+}
+
+
+.guion-h1 {
+        color: #F2B72F;
+}
+
+
+.disenador-grafico-abajo {
+        gap: -12rem;
+
+}
+
+
+.disenador-grafico-abajo {
+        color: var(--gris-3) !important;
+}
+
+
+.p-titular-home {
+        font-weight: 700;
+        color: var(--gris-2);
+}
+
+/*----------------------------------------------------------------*/
+
+
+/*-------------------------------------------H2 y logos*/
+
+.intro-logos-h2 {
+
+        max-width: 70rem;
+        width: 80%;
+        margin-left: auto;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 7.5rem;
+        margin-bottom: 7.5rem;
+}
+
+.grilla-iconos-home {
+        display: flex;
+        width: 59.9375rem;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 1.875rem;
+        flex-wrap: wrap;
+}
+
+.h2-home-he-trabajado {
+        color: var(--blanco);
+}
+
+.h2-home-muchas-cosas {
+        color: var(--amarillo-1) !important;
+}
+
+.un-poco-de-todo-home {
+        color: var(--gris-4);
+        font-style: italic;
+}
+
+.parrafo-iconos {
+        width: 80%;
+}
+
+.manejo-y-controlo {
+        font-weight: 700;
+        color: var(--blanco);
+        padding-top: 2rem;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------Experiencia*/
+
+.experiencia-seccion-completa {
+        background-color: var(--negro-2);
+        border-top: var(--amarillo-1) 4px solid;
+
+        display: flex;
+        padding: 6.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+.portfolio-pequeno {
+        color: var(--amarillo-1);
+}
+
+.parrafo-experiencia {
+        color: var(--gris-2);
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+.experiencia-h2 {
+        color: var(--blanco);
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Diseño Web y App*/
+
+.diseno-web-general {
+        background-color: var(--gris-1);
+        display: flex;
+        flex-direction: row;
+        border-top: var(--amarillo-1) 4px solid;
+        border-bottom: var(--amarillo-1) 4px solid;
+}
+
+.imagen-diseno-web {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.diseno-web-y-app-caja-interna {
+        padding: 6.5rem;
+}
+
+.un-poco-de-todo {
+        color: var(--negro-2);
+}
+
+.web-y-app-texto {
+        color: var(--amarillo-1);
+}
+
+
+.h4-diseno-web-app-texto {
+        font-weight: 400;
+        color: var(--negro-2);
+        width: 80%;
+
+}
+
+.boton-diseno-web-app {
+        color: var(--negro-1);
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Diseño de Marca*/
+
+.diseno-de-marcas-general {
+        background-color: var(--gris-1);
+        display: flex;
+        flex-direction: row;
+        border-top: var(--amarillo-1) 4px solid;
+        border-bottom: var(--amarillo-1) 4px solid;
+}
+
+.imagen-diseno-marcas {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.diseno-marcas-caja-interna {
+        padding: 6.5rem;
+}
+
+.lo-que-no-tenia-hueco {
+        color: var(--negro-2);
+}
+
+.de-marca-texto {
+        color: var(--amarillo-1);
+}
+
+
+.h4-diseno-de-marcas-texto {
+        font-weight: 400;
+        color: var(--negro-2);
+        width: 80%;
+}
+
+.boton-diseno-de-marcas {
+        color: var(--negro-1);
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Call to Action*/
+
+.call-to-action-general {
+        background-color: var(--amarillo-1);
+        display: flex;
+        padding: 6.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0,8rem;
+        align-self: stretch;
+}
+
+.call-to-action-pequeno {
+        color: var(--negro-1);
+}
+
+.parrafo-call-to-action {
+        color: var(--negro-1);
+        font-weight: 400 !important;
+        width: 70%;
+}
+
+.call-to-action-h2 {
+        color: var(--negro-1);
+}
+
+.boton-cta-contacto {
+        color: var(--negro-1);
+        border-bottom: 2px solid var(--negro-1) !important;
+
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Footer*/
+
+.footer-desk {
+        background-color: var(--negro-2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.5rem;
+        gap: 2.2rem;
+}
+
+.caja-enlaces-footer {
+        display: flex;
+        flex-direction: row;
+        flex: auto;
+        gap: 3.75rem;
+        color: var(--blanco);
+}
+
+.guion-footer-amarillo {
+        color: var(--amarillo-1);
+}
+
+/*----------------------------------------------------------------*/
