@@ -275,12 +275,14 @@ button {
 
 .caja-h1 {
         display: flex;
-        padding: 6rem 14.375rem;
+        padding: 4rem;
+        padding-left: 15%;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
+        align-items: flex-start;
         gap: 0.625rem;
         align-self: stretch;
+        width: 100%;
 }
 
 
@@ -672,53 +674,41 @@ button {
 
         /*--------H1 y primera imagen ------------*/
 
+
         .imagen-inicial-home-h1 {
                 padding-top: 0.3rem;
                 display: flex;
-                justify-content: flex-end;
+                padding-left: 1.5rem;
+                padding-right: 0;
 
         }
 
 
+
+        .imagen-inicial-home-h1 img {
+                display: block;
+                width: 100%;
+                height: auto;
+        }
+
+
         .caja-h1 {
-                display: flex;
-                padding: 6rem 2rem;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 0.625rem;
+                width: auto;
+                align-items: left;
+                padding: 3rem;
+                display: flex;        
         }
 
 
         .titular-principal {
                 color: var(--blanco);
-
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
         }
 
 
-        .guion-h1 {
-                color: #F2B72F;
-        }
-
-
-        .disenador-grafico-abajo {
-                gap: -12rem;
-
-        }
-
-
-        .disenador-grafico-abajo {
-                color: var(--gris-3) !important;
-        }
-
-
-        .p-titular-home {
-                font-weight: 700;
-                color: var(--gris-2);
-        }
 
         /*----------------------------------------------------------------*/
-
-
 
 }
