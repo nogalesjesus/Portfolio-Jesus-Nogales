@@ -26,57 +26,57 @@ html {
 /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
 h1 {
         font-family: "Bricolage Grotesque";
-        font-size: 10rem;
+        font-size: 9rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 10rem;
+        line-height: 100%;
 }
 
 
 h2 {
         font-family: "Bricolage Grotesque";
-        font-size: 9rem;
+        font-size: 7.5rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 9.375rem;
+        line-height: 100%;
 }
 
 
 h3 {
         font-family: "Bricolage Grotesque";
-        font-size: 7rem;
+        font-size: 5.8rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 7.5rem;
+        line-height: 100%;
 }
 
 
 h4 {
         font-family: "Bricolage Grotesque";
-        font-size: 5.7rem;
+        font-size: 5rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 6.6rem;
+        line-height: 100%;
 }
 
 
 h5 {
 
         font-family: "Bricolage Grotesque";
-        font-size: 5rem;
+        font-size: 4rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 5.5rem;
+        line-height: 100%;
 }
 
 
 h6 {
 
         font-family: "Bricolage Grotesque";
-        font-size: 4rem;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 800;
-        line-height: 4.4rem;
+        line-height: 100%;
 }
 
 /*-------------------------------------------------*/
@@ -531,7 +531,7 @@ button {
 .parrafo-call-to-action {
         color: var(--negro-1);
         font-weight: 400 !important;
-        width: 70%;
+        width: 100%;
 }
 
 .call-to-action-h2 {
@@ -550,7 +550,7 @@ button {
 
 /*-----------------------------------------------------Footer*/
 
-.footer-desk {
+.footer-main {
         background-color: var(--negro-2);
         display: flex;
         flex-direction: column;
@@ -571,12 +571,16 @@ button {
         color: var(--amarillo-1);
 }
 
+.footer-texto-final {
+        font-size: 1.5rem !important;
+}
+
 /*----------------------------------------------------------------*/
 
 
 
 
-/*---------------------------------------------------------------------------------ADAPTACIÓN A MÓVIL------------------------------------------*/
+/*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -744,7 +748,7 @@ button {
 
         .intro-logos-h2 {
                 width: fit-content;
-                padding: 8% 12% ;
+                padding: 8% 12%;
 
         }
 
@@ -826,6 +830,160 @@ button {
         /*----------------------------------------------------------------*/
 
 
+        /*------------------------------------------------------------------------------------------Footer*/
+        .footer-main {
+                padding: 12% 10%;
+                gap: 2rem;
+        }
 
+        .footer-texto {
+                font-size: 1.5rem !important;
+        }
+
+        .footer-texto-final {
+                font-size: 1rem !important;
+        }
+
+        .caja-enlaces-footer {
+                display: flex;
+                flex-direction: row;
+                flex: auto;
+                gap: 1rem;
+        }
+
+
+        /*----------------------------------------------------------------*/
+
+}
+
+
+/*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 12000px) {
+
+        /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+        h1 {
+                font-family: "Bricolage Grotesque";
+                font-size: 7rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h2 {
+                font-family: "Bricolage Grotesque";
+                font-size: 5.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h3 {
+                font-family: "Bricolage Grotesque";
+                font-size: 3.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h4 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h5 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h6 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+        /*-------------------------------------------------*/
+
+
+
+        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+
+        .h1-inter {
+                font-family: "Inter";
+                font-size: 5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+        }
+
+
+        .h2-inter {
+                font-family: "Inter";
+                font-size: 4rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+
+        }
+
+
+        .h3-inter {
+                font-family: "Inter";
+                font-size: 3rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3rem;
+                display: flex;
+        }
+
+
+        .h4-inter {
+                font-family: "Inter" !important;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+                display: flex;
+        }
+
+
+        .h5-inter {
+                font-family: "Inter";
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2rem;
+                display: flex;
+        }
+
+
+        .h6-inter {
+                font-family: "Inter";
+                font-size: 1.625rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.625rem;
+                display: flex;
+        }
 
 }
