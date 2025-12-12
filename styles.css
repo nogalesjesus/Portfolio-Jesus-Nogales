@@ -35,7 +35,7 @@ h1 {
 
 h2 {
         font-family: "Bricolage Grotesque";
-        font-size: 9.375rem;
+        font-size: 9rem;
         font-style: normal;
         font-weight: 800;
         line-height: 9.375rem;
@@ -44,7 +44,7 @@ h2 {
 
 h3 {
         font-family: "Bricolage Grotesque";
-        font-size: 7.5rem;
+        font-size: 7rem;
         font-style: normal;
         font-weight: 800;
         line-height: 7.5rem;
@@ -321,7 +321,7 @@ button {
 .intro-logos-h2 {
 
         max-width: 70rem;
-        width: 80%;
+        width: 65%;
         margin-left: auto;
         flex-direction: column;
         align-items: flex-end;
@@ -331,18 +331,30 @@ button {
 
 .grilla-iconos-home {
         display: flex;
-        width: 59.9375rem;
+        width: 100%;
         align-items: flex-start;
         align-content: flex-start;
         gap: 1.875rem;
         flex-wrap: wrap;
 }
 
-.h2-home-he-trabajado {
+.softwares-iconos-home {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        justify-content: center;
+}
+
+
+
+.h3-home-he-trabajado {
         color: var(--blanco);
 }
 
-.h2-home-muchas-cosas {
+.h3-home-muchas-cosas {
         color: var(--amarillo-1) !important;
 }
 
@@ -372,7 +384,6 @@ button {
 .experiencia-seccion-completa {
         background-color: var(--negro-2);
         border-top: var(--amarillo-1) 4px solid;
-
         display: flex;
         padding: 6.25rem;
         flex-direction: column;
@@ -696,7 +707,7 @@ button {
                 width: auto;
                 align-items: left;
                 padding: 3rem;
-                display: flex;        
+                display: flex;
         }
 
 
@@ -708,6 +719,33 @@ button {
         }
 
 
+
+        /*----------------------------------------------------------------*/
+
+
+        /*-------------------------------------------H2 y logos*/
+
+        .intro-logos-h2 {
+                width: 100%;
+                max-width: 100%;
+                padding: 0 1.5rem;
+                margin: 3rem 0;
+                align-items: flex-start;
+                align-content: flex-start;
+        }
+
+
+        .grilla-iconos-home {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.875rem;
+                width: 100%;
+                max-width: 59.9375rem;
+        }
+
+        .parrafo-iconos {
+                width: 100%;
+        }
 
         /*----------------------------------------------------------------*/
 
