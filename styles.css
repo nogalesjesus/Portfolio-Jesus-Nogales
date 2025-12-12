@@ -205,11 +205,11 @@ a {
 
 
 button {
-        padding: 1rem 1rem;
+        padding: 0.5rem 1rem;
         border-bottom: 2px solid var(--amarillo-1) !important;
         border: none;
         font-family: "Bricolage Grotesque" !important;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-style: normal;
         font-weight: 800;
         line-height: 40.8px;
@@ -283,6 +283,7 @@ button {
         gap: 0.625rem;
         align-self: stretch;
         width: 100%;
+
 }
 
 
@@ -294,6 +295,7 @@ button {
 
 .guion-h1 {
         color: #F2B72F;
+        position: inherit;
 }
 
 
@@ -325,8 +327,8 @@ button {
         margin-left: auto;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 7.5rem;
-        margin-bottom: 7.5rem;
+        margin-top: 10%;
+        margin-bottom: 10%;
 }
 
 .grilla-iconos-home {
@@ -385,7 +387,8 @@ button {
         background-color: var(--negro-2);
         border-top: var(--amarillo-1) 4px solid;
         display: flex;
-        padding: 6.25rem;
+        padding: 5% 0;
+        padding-left: 5%;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.25rem;
@@ -416,17 +419,25 @@ button {
         background-color: var(--gris-1);
         display: flex;
         flex-direction: row;
+        height: fit-content;
         border-top: var(--amarillo-1) 4px solid;
         border-bottom: var(--amarillo-1) 4px solid;
 }
 
 .imagen-diseno-web {
         display: flex;
-        flex-wrap: wrap;
+        flex-basis: auto;
+        width: 100%;
+        height: fit-content;
+
 }
 
 .diseno-web-y-app-caja-interna {
-        padding: 6.5rem;
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
 }
 
 .un-poco-de-todo {
@@ -441,8 +452,7 @@ button {
 .h4-diseno-web-app-texto {
         font-weight: 400;
         color: var(--negro-2);
-        width: 80%;
-
+        width: 100%;
 }
 
 .boton-diseno-web-app {
@@ -459,17 +469,24 @@ button {
         background-color: var(--gris-1);
         display: flex;
         flex-direction: row;
+        height: fit-content;
         border-top: var(--amarillo-1) 4px solid;
         border-bottom: var(--amarillo-1) 4px solid;
 }
 
 .imagen-diseno-marcas {
         display: flex;
-        flex-wrap: wrap;
+        flex-basis: auto;
+        width: fit-content;
+        height: fit-content;
 }
 
 .diseno-marcas-caja-interna {
-        padding: 6.5rem;
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
 }
 
 .lo-que-no-tenia-hueco {
@@ -484,7 +501,7 @@ button {
 .h4-diseno-de-marcas-texto {
         font-weight: 400;
         color: var(--negro-2);
-        width: 80%;
+        width: 100%;
 }
 
 .boton-diseno-de-marcas {
@@ -567,7 +584,7 @@ button {
 @media (max-width: 600px) {
 
 
-        /*----------------------------Headings puros, sin clase. Tipografía Bricolage-----------*/
+        /*-----------------------------------------------------------------------------Headings puros, sin clase. Tipografía Bricolage*/
         h1 {
                 font-family: "Bricolage Grotesque";
                 font-size: 4.6rem !important;
@@ -627,7 +644,7 @@ button {
         /*---------------------------------------------------------------------------------------*/
 
 
-        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+        /*-----------------------------------------------------------------------------Headings específicos, cambios tipografía, con clase. Tipografía Inter*/
 
         .h1-inter {
                 font-family: "Inter";
@@ -683,7 +700,7 @@ button {
 
 
 
-        /*--------H1 y primera imagen ------------*/
+        /*------------------------------------------------------------------------------------------H1 y primera imagen */
 
 
         .imagen-inicial-home-h1 {
@@ -723,15 +740,12 @@ button {
         /*----------------------------------------------------------------*/
 
 
-        /*-------------------------------------------H2 y logos*/
+        /*------------------------------------------------------------------------------------------H2 y logos*/
 
         .intro-logos-h2 {
-                width: 100%;
-                max-width: 100%;
-                padding: 0 1.5rem;
-                margin: 3rem 0;
-                align-items: flex-start;
-                align-content: flex-start;
+                width: fit-content;
+                padding: 8% 12% ;
+
         }
 
 
@@ -748,5 +762,70 @@ button {
         }
 
         /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Experiencia*/
+
+        .experiencia-seccion-completa {
+
+                padding: 12% 10%;
+                gap: 0.8rem;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño Web y App*/
+
+        .diseno-web-general {
+                display: flex;
+                flex-direction: column;
+
+        }
+
+        .diseno-web-y-app-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño de Marca*/
+
+        .diseno-de-marcas-general {
+                display: flex;
+                flex-direction: column;
+                flex-direction: column-reverse;
+        }
+
+        .diseno-marcas-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+        /*------------------------------------------------------------------------------------------Call to Action*/
+
+        .call-to-action-general {
+                padding: 12% 10%;
+                gap: 0, 8rem;
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
 
 }
