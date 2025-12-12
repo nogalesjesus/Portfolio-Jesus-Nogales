@@ -1043,7 +1043,8 @@ button {
 
 .imagen-diseno-web img,
 .imagen-diseno-marcas img {
-        width: 100%; /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
+        width: 100%;
+        /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
         height: 100%;
         display: block;
         object-fit: cover;
@@ -1056,7 +1057,8 @@ button {
         .diseno-web-y-app-caja-interna,
         .imagen-diseno-marcas,
         .diseno-marcas-caja-interna {
-                width: 100%;  /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
+                width: 100%;
+                /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
                 flex-grow: 0;
         }
 }
