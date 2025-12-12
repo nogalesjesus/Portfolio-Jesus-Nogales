@@ -24,9 +24,10 @@ html {
 }
 
 /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+
 h1 {
         font-family: "Bricolage Grotesque";
-        font-size: 9rem;
+        font-size: 8.7rem;
         font-style: normal;
         font-weight: 800;
         line-height: 100%;
@@ -35,7 +36,7 @@ h1 {
 
 h2 {
         font-family: "Bricolage Grotesque";
-        font-size: 7.5rem;
+        font-size: 7.3rem;
         font-style: normal;
         font-weight: 800;
         line-height: 100%;
@@ -44,7 +45,7 @@ h2 {
 
 h3 {
         font-family: "Bricolage Grotesque";
-        font-size: 5.8rem;
+        font-size: 5.5rem;
         font-style: normal;
         font-weight: 800;
         line-height: 100%;
@@ -53,7 +54,7 @@ h3 {
 
 h4 {
         font-family: "Bricolage Grotesque";
-        font-size: 5rem;
+        font-size: 4.6rem;
         font-style: normal;
         font-weight: 800;
         line-height: 100%;
@@ -261,10 +262,9 @@ button {
 
 
 
-/*--------------------------------------------------------------Home*/
-
-
+/*-----------------------------------------------------------------------------------------*/
 /*--------H1 y primera imagen ------------*/
+
 .imagen-inicial-home-h1 {
         padding-top: 0.3rem;
         display: flex;
@@ -321,7 +321,6 @@ button {
 /*-------------------------------------------H2 y logos*/
 
 .intro-logos-h2 {
-
         max-width: 70rem;
         width: 65%;
         margin-left: auto;
@@ -378,9 +377,6 @@ button {
 
 
 
-
-
-
 /*-----------------------------------------------------Experiencia*/
 
 .experiencia-seccion-completa {
@@ -395,9 +391,11 @@ button {
         align-self: stretch;
 }
 
+
 .portfolio-pequeno {
         color: var(--amarillo-1);
 }
+
 
 .parrafo-experiencia {
         color: var(--gris-2);
@@ -405,9 +403,11 @@ button {
         width: 80%;
 }
 
+
 .experiencia-h2 {
         color: var(--blanco);
 }
+
 
 /*----------------------------------------------------------------*/
 
@@ -427,8 +427,8 @@ button {
 .imagen-diseno-web {
         display: flex;
         flex-basis: auto;
-        width: 100%;
-        height: fit-content;
+        width: fit-content;
+        max-height: 20%;
 
 }
 
@@ -438,6 +438,7 @@ button {
         flex-wrap: wrap;
         flex-direction: column;
         width: fit-content;
+
 }
 
 .un-poco-de-todo {
@@ -472,6 +473,7 @@ button {
         height: fit-content;
         border-top: var(--amarillo-1) 4px solid;
         border-bottom: var(--amarillo-1) 4px solid;
+        align-items: stretch;
 }
 
 .imagen-diseno-marcas {
@@ -479,6 +481,8 @@ button {
         flex-basis: auto;
         width: fit-content;
         height: fit-content;
+
+
 }
 
 .diseno-marcas-caja-interna {
@@ -487,6 +491,8 @@ button {
         flex-wrap: wrap;
         flex-direction: column;
         width: fit-content;
+
+
 }
 
 .lo-que-no-tenia-hueco {
@@ -580,10 +586,189 @@ button {
 
 
 
+/*---------------------------------------------------------------------------------ADAPTACIÓN A TABLETS------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1000px) {
+
+        /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+        h1 {
+                font-family: "Bricolage Grotesque";
+                font-size: 6.7rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h2 {
+                font-family: "Bricolage Grotesque";
+                font-size: 5.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h3 {
+                font-family: "Bricolage Grotesque";
+                font-size: 3.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h4 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h5 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h6 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+        /*-------------------------------------------------*/
+
+
+
+        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+
+        .h1-inter {
+                font-family: "Inter";
+                font-size: 3.8rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+        }
+
+
+        .h2-inter {
+                font-family: "Inter";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+
+        }
+
+
+        .h3-inter {
+                font-family: "Inter";
+                font-size: 2.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3rem;
+                display: flex;
+        }
+
+
+        .h4-inter {
+                font-family: "Inter" !important;
+                font-size: 1.7rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+                display: flex;
+        }
+
+
+        .h5-inter {
+                font-family: "Inter";
+                font-size: 1.1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2rem;
+                display: flex;
+        }
+
+
+        .h6-inter {
+                font-family: "Inter";
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.625rem;
+                display: flex;
+        }
+
+        /*------------------------------------------------------------------------------------------Diseño Web y App*/
+
+        .diseno-web-general {
+                display: flex;
+                flex-direction: column;
+
+        }
+
+        .diseno-web-y-app-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        .imagen-diseno-web {
+                display: flex;
+                flex-basis: auto;
+                width: 100%;
+                height: fit-content;
+
+                width: 50%;
+                flex-grow: 1;
+                height: auto;
+
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño de Marca*/
+
+        .diseno-de-marcas-general {
+                display: flex;
+                flex-direction: column;
+                flex-direction: column-reverse;
+        }
+
+        .diseno-marcas-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+}
+
+
+
+
+
+
+
+
 /*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 
 @media (max-width: 600px) {
 
@@ -795,7 +980,9 @@ button {
 
         .diseno-web-y-app-caja-interna {
                 padding: 12% 10%;
-
+                width: 50%;
+                flex-grow: 1;
+                height: auto;
         }
 
         /*----------------------------------------------------------------*/
@@ -857,133 +1044,45 @@ button {
 }
 
 
-/*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------Corrección imágenes de Diseño web y Diseño marca*/
+
+.imagen-diseno-web,
+.imagen-diseno-marcas
+ {
+        width: 50%;
+        flex-grow: 1;
+        height: auto;
+}
+
+.imagen-diseno-web img,
+.imagen-diseno-marcas img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+}
 
 
+@media (max-width: 1000px) {
 
-@media (max-width: 12000px) {
-
-        /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
-        h1 {
-                font-family: "Bricolage Grotesque";
-                font-size: 7rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
+        .imagen-diseno-web,
+        .diseno-web-y-app-caja-interna,
+        .imagen-diseno-marcas,
+        .diseno-marcas-caja-interna {
+                width: 100%;
+                flex-grow: 0;
         }
+}
 
+@media (max-width: 600px) {
 
-        h2 {
-                font-family: "Bricolage Grotesque";
-                font-size: 5.5rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
-        }
-
-
-        h3 {
-                font-family: "Bricolage Grotesque";
-                font-size: 3.8rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
-        }
-
-
-        h4 {
-                font-family: "Bricolage Grotesque";
-                font-size: 2.8rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
-        }
-
-
-        h5 {
-
-                font-family: "Bricolage Grotesque";
-                font-size: 2rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
-        }
-
-
-        h6 {
-
-                font-family: "Bricolage Grotesque";
-                font-size: 1.5rem;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 100%;
-        }
-
-        /*-------------------------------------------------*/
-
-
-
-        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
-
-        .h1-inter {
-                font-family: "Inter";
-                font-size: 5rem;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 120%;
-                display: flex;
-        }
-
-
-        .h2-inter {
-                font-family: "Inter";
-                font-size: 4rem;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 120%;
-                display: flex;
-
-        }
-
-
-        .h3-inter {
-                font-family: "Inter";
-                font-size: 3rem;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 3rem;
-                display: flex;
-        }
-
-
-        .h4-inter {
-                font-family: "Inter" !important;
-                font-size: 2.5rem;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 2.5rem;
-                display: flex;
-        }
-
-
-        .h5-inter {
-                font-family: "Inter";
-                font-size: 2rem;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 2rem;
-                display: flex;
-        }
-
-
-        .h6-inter {
-                font-family: "Inter";
-                font-size: 1.625rem;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 1.625rem;
-                display: flex;
+        .imagen-diseno-web,
+        .diseno-web-y-app-caja-interna,
+        .imagen-diseno-marcas,
+        .diseno-marcas-caja-interna {
+                width: 100%;
+                flex-grow: 0;
         }
 
 }
