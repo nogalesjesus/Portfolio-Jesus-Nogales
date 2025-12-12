@@ -19,7 +19,9 @@
 
 /* ------------------------------ */
 
-
+html {
+        font-size: 18px;
+}
 
 /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
 h1 {
@@ -149,7 +151,7 @@ h6 {
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 3.2rem;
+        line-height: 100%;
 }
 
 .p-l {
@@ -488,7 +490,7 @@ button {
         padding: 6.25rem;
         flex-direction: column;
         align-items: flex-start;
-        gap: 0,8rem;
+        gap: 0, 8rem;
         align-self: stretch;
 }
 
@@ -540,3 +542,183 @@ button {
 }
 
 /*----------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------------------------------------------ADAPTACIÓN A MÓVIL------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 600px) {
+
+
+        /*----------------------------Headings puros, sin clase. Tipografía Bricolage-----------*/
+        h1 {
+                font-family: "Bricolage Grotesque";
+                font-size: 4.6rem !important;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h2 {
+                font-family: "Bricolage Grotesque";
+                font-size: 3.3rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+
+        }
+
+
+        h3 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h4 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.1rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h5 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h6 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+        /*---------------------------------------------------------------------------------------*/
+
+
+        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+
+        .h1-inter {
+                font-family: "Inter";
+                font-size: 2.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                display: flex;
+        }
+
+
+        .h2-inter {
+                font-family: "Inter";
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+
+        }
+
+        .h3-inter {
+                font-family: "Inter";
+                font-size: 2.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3rem;
+                display: flex;
+        }
+
+
+        .h4-inter {
+                font-family: "Inter" !important;
+                font-size: 1.85rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+                display: flex;
+        }
+
+
+        .h5-inter {
+                font-family: "Inter";
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2rem;
+                display: flex;
+        }
+
+
+        /*-------------------------------------------------------------------------------*/
+
+
+
+        /*--------H1 y primera imagen ------------*/
+
+        .imagen-inicial-home-h1 {
+                padding-top: 0.3rem;
+                display: flex;
+                justify-content: flex-end;
+
+        }
+
+
+        .caja-h1 {
+                display: flex;
+                padding: 6rem 2rem;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.625rem;
+        }
+
+
+        .titular-principal {
+                color: var(--blanco);
+
+        }
+
+
+        .guion-h1 {
+                color: #F2B72F;
+        }
+
+
+        .disenador-grafico-abajo {
+                gap: -12rem;
+
+        }
+
+
+        .disenador-grafico-abajo {
+                color: var(--gris-3) !important;
+        }
+
+
+        .p-titular-home {
+                font-weight: 700;
+                color: var(--gris-2);
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+}
