@@ -1135,7 +1135,7 @@ button {
 /*-----------------------------------------------------Carrusel Diseño MARCAS*/
 
 .proyectos-h2--marcas-caja-general {
-        background-color: var(--amarillo-1);
+        background-color: var(--gris-2);
         display: flex;
         padding: 5% 0;
         padding-left: 5%;
