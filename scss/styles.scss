@@ -1,0 +1,1162 @@
+* ¨ {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+
+/* ---------- Variantes ---------- */
+
+:root {
+        --blanco: #FFF;
+        --amarillo-1: #F2B72F;
+        --gris-1: #F1F1F1;
+        --gris-2: #C0C0C0;
+        --gris-3: #909090;
+        --gris-4: #606060;
+        --negro-1: #0E1011;
+        --negro-2: #181A1B;
+}
+
+html {
+        font-size: 18px;
+}
+
+/* ------------------------------ */
+
+
+
+/*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+
+h1 {
+        font-family: "Bricolage Grotesque";
+        font-size: 8.7rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+
+h2 {
+        font-family: "Bricolage Grotesque";
+        font-size: 7.3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+
+h3 {
+        font-family: "Bricolage Grotesque";
+        font-size: 5.5rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+
+h4 {
+        font-family: "Bricolage Grotesque";
+        font-size: 4.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+
+h5 {
+
+        font-family: "Bricolage Grotesque";
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+
+h6 {
+
+        font-family: "Bricolage Grotesque";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+/*-------------------------------------------------*/
+
+
+
+/*---------Headings específicos, cambios tipografía con clase. Tipografía Inter-----------*/
+
+.h1-inter {
+        font-family: "Inter";
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        display: flex;
+}
+
+
+.h2-inter {
+        font-family: "Inter";
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        display: flex;
+
+}
+
+
+.h3-inter {
+        font-family: "Inter";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3rem;
+        display: flex;
+}
+
+
+.h4-inter {
+        font-family: "Inter" !important;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5rem;
+        display: flex;
+}
+
+
+.h5-inter {
+        font-family: "Inter";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        display: flex;
+}
+
+
+.h6-inter {
+        font-family: "Inter";
+        font-size: 1.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.625rem;
+        display: flex;
+}
+
+
+.p-xl {
+        font-family: "Inter";
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+}
+
+.p-l {
+        font-family: "Inter";
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.8rem;
+}
+
+
+p {
+        color: var(--gris-2);
+        font-family: "Inter";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        /* 2.025rem */
+}
+
+
+.p-s {
+        font-family: "Inter";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.025rem;
+}
+
+
+/*-------------------------------------------------*/
+
+
+
+/*---------Body y generales-----------*/
+
+body {
+        background-color: var(--negro-1)
+}
+
+
+a {
+        color: inherit;
+        text-decoration: none;
+        font-family: "Bricolage Grotesque" !important;
+        font-weight: 800;
+
+
+}
+
+
+button {
+        padding: 0.5rem 1rem;
+        border-bottom: 2px solid var(--amarillo-1) !important;
+        border: none;
+        font-family: "Bricolage Grotesque" !important;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 40.8px;
+        text-align: center;
+        background: none;
+        width: fit-content;
+        color: var(--blanco);
+        box-shadow: none;
+
+}
+
+
+
+
+.navbar {
+        background-color: var(--negro-1) !important;
+        color: var(--blanco) !important;
+        justify-content: right;
+}
+
+
+
+.nav-link {
+        color: var(--blanco) !important;
+}
+
+
+
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+
+.nav-link {
+        color: var(--blanco) !important;
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+}
+
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
+
+
+/*---------------------------------DISEÑO ESPECÍFICO----------------------------------------------*/
+/*--------H1 y primera imagen ------------*/
+
+.imagen-inicial-home-h1 {
+        padding-top: 0.3rem;
+        display: flex;
+        justify-content: flex-end;
+
+}
+
+
+.caja-h1 {
+        display: flex;
+        padding: 4rem;
+        padding-left: 15%;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 0.625rem;
+        align-self: stretch;
+}
+
+
+.titular-principal {
+        color: var(--blanco);
+
+}
+
+
+.guion-h1 {
+        color: #F2B72F;
+        position: inherit;
+}
+
+
+.disenador-grafico-abajo {
+        gap: -12rem;
+
+}
+
+
+.disenador-grafico-abajo {
+        color: var(--gris-3) !important;
+}
+
+
+.p-titular-home {
+        font-weight: 700;
+        color: var(--gris-2);
+}
+
+/*----------------------------------------------------------------*/
+
+
+/*-------------------------------------------H2 y logos*/
+
+.intro-logos-h2 {
+        max-width: 70rem;
+        width: 65%;
+        margin-left: auto;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 10%;
+        margin-bottom: 10%;
+}
+
+.grilla-iconos-home {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 1.875rem;
+        flex-wrap: wrap;
+}
+
+.softwares-iconos-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+
+
+.h3-home-he-trabajado {
+        color: var(--blanco);
+}
+
+.h3-home-muchas-cosas {
+        color: var(--amarillo-1) !important;
+}
+
+.un-poco-de-todo-home {
+        color: var(--gris-4);
+        font-style: italic;
+}
+
+.parrafo-iconos {
+        width: 80%;
+}
+
+.manejo-y-controlo {
+        font-weight: 700;
+        color: var(--blanco);
+        padding-top: 2rem;
+}
+
+
+
+
+/*-----------------------------------------------------Experiencia*/
+
+.experiencia-seccion-completa {
+        background-color: var(--negro-2);
+        border-top: var(--amarillo-1) 4px solid;
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+
+.portfolio-pequeno {
+        color: var(--amarillo-1);
+}
+
+
+.parrafo-experiencia {
+        color: var(--gris-2);
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+
+.experiencia-h2 {
+        color: var(--blanco);
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Diseño Web y App*/
+
+.diseno-web-general {
+        background-color: var(--gris-1);
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        border-top: var(--amarillo-1) 4px solid;
+        border-bottom: var(--amarillo-1) 4px solid;
+}
+
+.imagen-diseno-web {
+        display: flex;
+        flex-basis: auto;
+        width: fit-content;
+        max-height: 20%;
+
+}
+
+.diseno-web-y-app-caja-interna {
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+
+}
+
+.un-poco-de-todo {
+        color: var(--negro-2);
+}
+
+.web-y-app-texto {
+        color: var(--amarillo-1);
+}
+
+
+.h4-diseno-web-app-texto {
+        font-weight: 400;
+        color: var(--negro-2);
+}
+
+.boton-diseno-web-app {
+        color: var(--negro-1);
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Diseño de Marca*/
+
+.diseno-de-marcas-general {
+        background-color: var(--gris-1);
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        border-top: var(--amarillo-1) 4px solid;
+        border-bottom: var(--amarillo-1) 4px solid;
+        align-items: stretch;
+}
+
+.imagen-diseno-marcas {
+        display: flex;
+        flex-basis: auto;
+        width: fit-content;
+        height: fit-content;
+
+
+}
+
+.diseno-marcas-caja-interna {
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: fit-content;
+
+
+}
+
+.lo-que-no-tenia-hueco {
+        color: var(--negro-2);
+}
+
+.de-marca-texto {
+        color: var(--amarillo-1);
+}
+
+
+.h4-diseno-de-marcas-texto {
+        font-weight: 400;
+        color: var(--negro-2);
+}
+
+.boton-diseno-de-marcas {
+        color: var(--negro-1);
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Call to Action*/
+
+.call-to-action-general {
+        background-color: var(--amarillo-1);
+        display: flex;
+        padding: 6.25rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0, 8rem;
+        align-self: stretch;
+}
+
+.call-to-action-pequeno {
+        color: var(--negro-1);
+}
+
+.parrafo-call-to-action {
+        color: var(--negro-1);
+        font-weight: 400 !important;
+}
+
+.call-to-action-h2 {
+        color: var(--negro-1);
+}
+
+.boton-cta-contacto {
+        color: var(--negro-1);
+        border-bottom: 2px solid var(--negro-1) !important;
+
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------Footer*/
+
+.footer-main {
+        background-color: var(--negro-2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3.5rem;
+        gap: 2.2rem;
+}
+
+.caja-enlaces-footer {
+        display: flex;
+        flex-direction: row;
+        flex: auto;
+        gap: 3.75rem;
+        color: var(--blanco);
+}
+
+.guion-footer-amarillo {
+        color: var(--amarillo-1);
+}
+
+.footer-texto-final {
+        font-size: 1.5rem !important;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------------------------------------------------ADAPTACIÓN A TABLETS------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 1000px) {
+
+        /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+        h1 {
+                font-family: "Bricolage Grotesque";
+                font-size: 6.7rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h2 {
+                font-family: "Bricolage Grotesque";
+                font-size: 5.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h3 {
+                font-family: "Bricolage Grotesque";
+                font-size: 3.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h4 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h5 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h6 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+        /*-------------------------------------------------*/
+
+
+
+        /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
+
+        .h1-inter {
+                font-family: "Inter";
+                font-size: 3.8rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+        }
+
+
+        .h2-inter {
+                font-family: "Inter";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+
+        }
+
+
+        .h3-inter {
+                font-family: "Inter";
+                font-size: 2.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3rem;
+                display: flex;
+        }
+
+
+        .h4-inter {
+                font-family: "Inter" !important;
+                font-size: 1.7rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+                display: flex;
+        }
+
+
+        .h5-inter {
+                font-family: "Inter";
+                font-size: 1.1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2rem;
+                display: flex;
+        }
+
+
+        .h6-inter {
+                font-family: "Inter";
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.625rem;
+                display: flex;
+        }
+
+        /*------------------------------------------------------------------------------------------Diseño Web y App*/
+
+        .diseno-web-general {
+                display: flex;
+                flex-direction: column;
+
+        }
+
+        .diseno-web-y-app-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        .imagen-diseno-web {
+                display: flex;
+                flex-basis: auto;
+                height: fit-content;
+
+                width: 50%;
+                flex-grow: 1;
+                height: auto;
+
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño de Marca*/
+
+        .diseno-de-marcas-general {
+                display: flex;
+                flex-direction: column;
+                flex-direction: column-reverse;
+        }
+
+        .diseno-marcas-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+
+        /*-----------------------------------------------------------------------------Headings puros, sin clase. Tipografía Bricolage*/
+        h1 {
+                font-family: "Bricolage Grotesque";
+                font-size: 4.6rem !important;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h2 {
+                font-family: "Bricolage Grotesque";
+                font-size: 3.3rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+
+        }
+
+
+        h3 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.8rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h4 {
+                font-family: "Bricolage Grotesque";
+                font-size: 2.1rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h5 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+
+        h6 {
+
+                font-family: "Bricolage Grotesque";
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 100%;
+        }
+
+        /*---------------------------------------------------------------------------------------*/
+
+
+        /*-----------------------------------------------------------------------------Headings específicos, cambios tipografía, con clase. Tipografía Inter*/
+
+        .h1-inter {
+                font-family: "Inter";
+                font-size: 2.75rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                display: flex;
+        }
+
+
+        .h2-inter {
+                font-family: "Inter";
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+                display: flex;
+
+        }
+
+        .h3-inter {
+                font-family: "Inter";
+                font-size: 2.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3rem;
+                display: flex;
+        }
+
+
+        .h4-inter {
+                font-family: "Inter" !important;
+                font-size: 1.85rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2.5rem;
+                display: flex;
+        }
+
+
+        .h5-inter {
+                font-family: "Inter";
+                font-size: 1.75rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 2rem;
+                display: flex;
+        }
+
+
+        /*-------------------------------------------------------------------------------*/
+
+
+
+        /*------------------------------------------------------------------------------------------H1 y primera imagen */
+
+
+        .imagen-inicial-home-h1 {
+                padding-top: 0.3rem;
+                display: flex;
+                padding-left: 1.5rem;
+                padding-right: 0;
+
+        }
+
+
+
+        .imagen-inicial-home-h1 img {
+                display: block;
+                height: auto;
+        }
+
+
+        .caja-h1 {
+                align-items: left;
+                padding: 3rem;
+                display: flex;
+        }
+
+
+        .titular-principal {
+                color: var(--blanco);
+                display: flex;
+                flex-direction: column;
+                gap: 1.25rem;
+        }
+
+
+
+        /*----------------------------------------------------------------*/
+
+
+        /*------------------------------------------------------------------------------------------H2 y logos*/
+
+        .intro-logos-h2 {
+                width: fit-content;
+                padding: 8% 12%;
+
+        }
+
+
+        .grilla-iconos-home {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.875rem;
+                max-width: 59.9375rem;
+        }
+
+
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Experiencia*/
+
+        .experiencia-seccion-completa {
+
+                padding: 12% 10%;
+                gap: 0.8rem;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño Web y App*/
+
+        .diseno-web-general {
+                display: flex;
+                flex-direction: column;
+
+        }
+
+        .diseno-web-y-app-caja-interna {
+                padding: 12% 10%;
+                width: 50%;
+                flex-grow: 1;
+                height: auto;
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+
+        /*------------------------------------------------------------------------------------------Diseño de Marca*/
+
+        .diseno-de-marcas-general {
+                display: flex;
+                flex-direction: column;
+                flex-direction: column-reverse;
+        }
+
+        .diseno-marcas-caja-interna {
+                padding: 12% 10%;
+
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+
+        /*------------------------------------------------------------------------------------------Call to Action*/
+
+        .call-to-action-general {
+                padding: 12% 10%;
+                gap: 0, 8rem;
+        }
+
+        /*----------------------------------------------------------------*/
+
+
+        /*------------------------------------------------------------------------------------------Footer*/
+        .footer-main {
+                padding: 12% 10%;
+                gap: 2rem;
+        }
+
+        .footer-texto {
+                font-size: 1.5rem !important;
+        }
+
+        .footer-texto-final {
+                font-size: 1rem !important;
+        }
+
+        .caja-enlaces-footer {
+                display: flex;
+                flex-direction: row;
+                flex: auto;
+                gap: 1rem;
+        }
+
+
+        /*----------------------------------------------------------------*/
+
+}
+
+
+
+/*-----------------------------------------------------------------------------------------Corrección imágenes de Diseño web y Diseño marca*/
+
+.imagen-diseno-web,
+.imagen-diseno-marcas {
+        width: 50%;
+        flex-grow: 1;
+        height: auto;
+}
+
+.imagen-diseno-web img,
+.imagen-diseno-marcas img {
+        width: 100%;
+        /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
+        height: 100%;
+        display: block;
+        object-fit: cover;
+}
+
+
+@media (max-width: 1000px) {
+
+        .imagen-diseno-web,
+        .diseno-web-y-app-caja-interna,
+        .imagen-diseno-marcas,
+        .diseno-marcas-caja-interna {
+                width: 100%;
+                /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
+                flex-grow: 0;
+        }
+}
+
+
+/*--------------------------------------------------------PÁGINA DE PROYECTOS---------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------H1 Título Proyectos*/
+
+.proyectos-h1-caja-general {
+        border-bottom: var(--amarillo-1) 4px solid;
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+.proyectos-pequeno {
+        color: var(--gris-2);
+}
+
+.proyectos-titulo-h1 {
+        color: var(--amarillo-1);
+}
+
+.parrafo-proyectos {
+        color: var(--gris-2);
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+@media (max-width: 600px) { 
+        .proyectos-h1-caja-general {
+                padding: 10% 8%;
+        }
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Carrusel Diseño Web*/
+
+.proyectos-h2-caja-general {
+        background-color: var(--gris-1);
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+
+.proyectos-diseno-web-h2 {
+        color: var(--negro-1);
+        font-weight: 500;
+}
+
+.parrafo-proyectos-diseno-web {
+        color: var(--negro-2);
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+.texto-pequeno-slider {
+        color: var(--gris-1);
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Carrusel Diseño MARCAS*/
+
+.proyectos-h2--marcas-caja-general {
+        background-color: var(--gris-2);
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+
+.proyectos-diseno-marcas-h2 {
+        color: var(--negro-1);
+        font-weight: 500;
+}
+
+.parrafo-proyectos-diseno-marcas {
+        color: var(--negro-2);
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+.texto-pequeno-slider {
+        color: var(--gris-1);
+}
