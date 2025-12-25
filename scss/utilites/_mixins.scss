@@ -1,0 +1,8 @@
+@mixin estilo-h1 ($f-f, $f-s, $f-c) {
+    font-family: $f-f;
+    font-size: $f-s;
+    color: $f-c;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+}

@@ -1,28 +1,5 @@
 @charset "UTF-8";
-* ¨ {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* ---------- Variantes ---------- */
-:root {
-  --blanco: #FFF;
-  --amarillo-1: #F2B72F;
-  --gris-1: #F1F1F1;
-  --gris-2: #C0C0C0;
-  --gris-3: #909090;
-  --gris-4: #606060;
-  --negro-1: #0E1011;
-  --negro-2: #181A1B;
-}
-
-html {
-  font-size: 18px;
-}
-
-/* ------------------------------ */
-/*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
+/* Variables de color */
 h1 {
   font-family: "Bricolage Grotesque";
   font-size: 8.7rem;
@@ -71,7 +48,16 @@ h6 {
   line-height: 100%;
 }
 
-/*-------------------------------------------------*/
+html {
+  font-size: 18px;
+}
+
+* ¨ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*---------Headings específicos, cambios tipografía con clase. Tipografía Inter-----------*/
 .h1-inter {
   font-family: "Inter";
@@ -144,7 +130,7 @@ h6 {
 }
 
 p {
-  color: var(--gris-2);
+  color: #C0C0C0;
   font-family: "Inter";
   font-size: 1.125rem;
   font-style: normal;
@@ -164,7 +150,7 @@ p {
 /*-------------------------------------------------*/
 /*---------Body y generales-----------*/
 body {
-  background-color: var(--negro-1);
+  background-color: #0E1011;
 }
 
 a {
@@ -176,7 +162,7 @@ a {
 
 button {
   padding: 0.5rem 1rem;
-  border-bottom: 2px solid var(--amarillo-1) !important;
+  border-bottom: 2px solid #F2B72F !important;
   border: none;
   font-family: "Bricolage Grotesque" !important;
   font-size: 1rem;
@@ -186,18 +172,18 @@ button {
   text-align: center;
   background: none;
   width: fit-content;
-  color: var(--blanco);
+  color: #FFF;
   box-shadow: none;
 }
 
 .navbar {
-  background-color: var(--negro-1) !important;
-  color: var(--blanco) !important;
+  background-color: #0E1011 !important;
+  color: #FFF !important;
   justify-content: right;
 }
 
 .nav-link {
-  color: var(--blanco) !important;
+  color: #FFF !important;
 }
 
 .navbar-toggler-icon {
@@ -205,7 +191,7 @@ button {
 }
 
 .nav-link {
-  color: var(--blanco) !important;
+  color: #FFF !important;
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 1.375rem;
   font-style: normal;
@@ -237,7 +223,7 @@ button {
 }
 
 .titular-principal {
-  color: var(--blanco);
+  color: #FFF;
 }
 
 .guion-h1 {
@@ -250,12 +236,12 @@ button {
 }
 
 .disenador-grafico-abajo {
-  color: var(--gris-3) !important;
+  color: #909090 !important;
 }
 
 .p-titular-home {
   font-weight: 700;
-  color: var(--gris-2);
+  color: #C0C0C0;
 }
 
 /*----------------------------------------------------------------*/
@@ -286,11 +272,11 @@ button {
 }
 
 .h3-home-he-trabajado {
-  color: var(--blanco);
+  color: #FFF;
 }
 
 .h3-home-muchas-cosas {
-  color: var(--amarillo-1) !important;
+  color: #F2B72F !important;
 }
 
 .un-poco-de-todo-home {
@@ -304,14 +290,14 @@ button {
 
 .manejo-y-controlo {
   font-weight: 700;
-  color: var(--blanco);
+  color: #FFF;
   padding-top: 2rem;
 }
 
 /*-----------------------------------------------------Experiencia*/
 .experiencia-seccion-completa {
-  background-color: var(--negro-2);
-  border-top: var(--amarillo-1) 4px solid;
+  background-color: #181A1B;
+  border-top: #F2B72F 4px solid;
   display: flex;
   padding: 5% 0;
   padding-left: 5%;
@@ -322,28 +308,28 @@ button {
 }
 
 .portfolio-pequeno {
-  color: var(--amarillo-1);
+  color: #F2B72F;
 }
 
 .parrafo-experiencia {
-  color: var(--gris-2);
+  color: #C0C0C0;
   font-weight: 400 !important;
   width: 80%;
 }
 
 .experiencia-h2 {
-  color: var(--blanco);
+  color: #FFF;
 }
 
 /*----------------------------------------------------------------*/
 /*-----------------------------------------------------Diseño Web y App*/
 .diseno-web-general {
-  background-color: var(--gris-1);
+  background-color: #F1F1F1;
   display: flex;
   flex-direction: row;
   height: fit-content;
-  border-top: var(--amarillo-1) 4px solid;
-  border-bottom: var(--amarillo-1) 4px solid;
+  border-top: #F2B72F 4px solid;
+  border-bottom: #F2B72F 4px solid;
 }
 
 .imagen-diseno-web {
@@ -362,31 +348,31 @@ button {
 }
 
 .un-poco-de-todo {
-  color: var(--negro-2);
+  color: #181A1B;
 }
 
 .web-y-app-texto {
-  color: var(--amarillo-1);
+  color: #F2B72F;
 }
 
 .h4-diseno-web-app-texto {
   font-weight: 400;
-  color: var(--negro-2);
+  color: #181A1B;
 }
 
 .boton-diseno-web-app {
-  color: var(--negro-1);
+  color: #0E1011;
 }
 
 /*----------------------------------------------------------------*/
 /*-----------------------------------------------------Diseño de Marca*/
 .diseno-de-marcas-general {
-  background-color: var(--gris-1);
+  background-color: #F1F1F1;
   display: flex;
   flex-direction: row;
   height: fit-content;
-  border-top: var(--amarillo-1) 4px solid;
-  border-bottom: var(--amarillo-1) 4px solid;
+  border-top: #F2B72F 4px solid;
+  border-bottom: #F2B72F 4px solid;
   align-items: stretch;
 }
 
@@ -406,26 +392,26 @@ button {
 }
 
 .lo-que-no-tenia-hueco {
-  color: var(--negro-2);
+  color: #181A1B;
 }
 
 .de-marca-texto {
-  color: var(--amarillo-1);
+  color: #F2B72F;
 }
 
 .h4-diseno-de-marcas-texto {
   font-weight: 400;
-  color: var(--negro-2);
+  color: #181A1B;
 }
 
 .boton-diseno-de-marcas {
-  color: var(--negro-1);
+  color: #0E1011;
 }
 
 /*----------------------------------------------------------------*/
 /*-----------------------------------------------------Call to Action*/
 .call-to-action-general {
-  background-color: var(--amarillo-1);
+  background-color: #F2B72F;
   display: flex;
   padding: 6.25rem;
   flex-direction: column;
@@ -435,27 +421,27 @@ button {
 }
 
 .call-to-action-pequeno {
-  color: var(--negro-1);
+  color: #0E1011;
 }
 
 .parrafo-call-to-action {
-  color: var(--negro-1);
+  color: #0E1011;
   font-weight: 400 !important;
 }
 
 .call-to-action-h2 {
-  color: var(--negro-1);
+  color: #0E1011;
 }
 
 .boton-cta-contacto {
-  color: var(--negro-1);
-  border-bottom: 2px solid var(--negro-1) !important;
+  color: #0E1011;
+  border-bottom: 2px solid #0E1011 !important;
 }
 
 /*----------------------------------------------------------------*/
 /*-----------------------------------------------------Footer*/
 .footer-main {
-  background-color: var(--negro-2);
+  background-color: #181A1B;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -468,11 +454,11 @@ button {
   flex-direction: row;
   flex: auto;
   gap: 3.75rem;
-  color: var(--blanco);
+  color: #FFF;
 }
 
 .guion-footer-amarillo {
-  color: var(--amarillo-1);
+  color: #F2B72F;
 }
 
 .footer-texto-final {
@@ -710,7 +696,7 @@ button {
     display: flex;
   }
   .titular-principal {
-    color: var(--blanco);
+    color: #FFF;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -811,7 +797,7 @@ button {
 /*--------------------------------------------------------PÁGINA DE PROYECTOS---------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------H1 Título Proyectos*/
 .proyectos-h1-caja-general {
-  border-bottom: var(--amarillo-1) 4px solid;
+  border-bottom: #F2B72F 4px solid;
   display: flex;
   padding: 5% 0;
   padding-left: 5%;
@@ -822,15 +808,15 @@ button {
 }
 
 .proyectos-pequeno {
-  color: var(--gris-2);
+  color: #C0C0C0;
 }
 
 .proyectos-titulo-h1 {
-  color: var(--amarillo-1);
+  color: #F2B72F;
 }
 
 .parrafo-proyectos {
-  color: var(--gris-2);
+  color: #C0C0C0;
   font-weight: 400 !important;
   width: 80%;
 }
@@ -843,7 +829,7 @@ button {
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------Carrusel Diseño Web*/
 .proyectos-h2-caja-general {
-  background-color: var(--gris-1);
+  background-color: #F1F1F1;
   display: flex;
   padding: 5% 0;
   padding-left: 5%;
@@ -854,24 +840,24 @@ button {
 }
 
 .proyectos-diseno-web-h2 {
-  color: var(--negro-1);
+  color: #0E1011;
   font-weight: 500;
 }
 
 .parrafo-proyectos-diseno-web {
-  color: var(--negro-2);
+  color: #181A1B;
   font-weight: 400 !important;
   width: 80%;
 }
 
 .texto-pequeno-slider {
-  color: var(--gris-1);
+  color: #F1F1F1;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------Carrusel Diseño MARCAS*/
 .proyectos-h2--marcas-caja-general {
-  background-color: var(--gris-2);
+  background-color: #C0C0C0;
   display: flex;
   padding: 5% 0;
   padding-left: 5%;
@@ -882,18 +868,18 @@ button {
 }
 
 .proyectos-diseno-marcas-h2 {
-  color: var(--negro-1);
+  color: #0E1011;
   font-weight: 500;
 }
 
 .parrafo-proyectos-diseno-marcas {
-  color: var(--negro-2);
+  color: #181A1B;
   font-weight: 400 !important;
   width: 80%;
 }
 
 .texto-pequeno-slider {
-  color: var(--gris-1);
+  color: #F1F1F1;
 }
 
 /*# sourceMappingURL=styles.css.map */
