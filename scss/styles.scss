@@ -1,8 +1,16 @@
+//Utilities --------------------------------------------------
 @import "./utilites/variables";
 @import "./utilites/base";
 @import "./utilites/tipografia";
-@import "./elementos/navbar";
+@import "./utilites/extends";
+
+
+//Páginas-------------------------------------------------------
 @import "./paginas/home";
 @import "./paginas/proyectos";
-@import "./utilites/extends";
+@import "./paginas/contacto";
+
+
+//Elementos ----------------------------------------------------
+@import "./elementos/navbar";
 @import "./elementos/footer";

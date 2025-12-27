@@ -29,6 +29,7 @@ button {
   font-weight: 800;
   line-height: 40.8px;
   text-align: center;
+  width: fit-content;
   background: none;
   color: #FFF;
   cursor: pointer;
@@ -290,27 +291,19 @@ p {
   line-height: 2.025rem;
 }
 
-.navbar {
-  background-color: #0E1011 !important;
-  color: #FFF !important;
-  justify-content: right;
+.call-to-action-general, .experiencia-seccion-completa {
+  display: flex;
+  padding: 6.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0, 8rem;
+  align-self: stretch;
 }
-
-.nav-link {
-  color: #FFF !important;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.nav-link {
-  color: #FFF !important;
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 1.375rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
+@media (max-width: 600px) {
+  .call-to-action-general, .experiencia-seccion-completa {
+    padding: 12% 10%;
+    gap: 0.8rem;
+  }
 }
 
 /*------------------------------------------------------------H1 y primera imagen ------------*/
@@ -535,13 +528,10 @@ p {
   height: fit-content;
   border-top: #F2B72F 4px solid;
   border-bottom: #F2B72F 4px solid;
-  align-items: stretch;
 }
 @media (max-width: 1000px) {
   .diseno-de-marcas-general {
-    display: flex;
     flex-direction: column;
-    flex-direction: column-reverse;
   }
 }
 
@@ -549,7 +539,17 @@ p {
   display: flex;
   flex-basis: auto;
   width: fit-content;
-  height: fit-content;
+  max-height: 20%;
+}
+@media (max-width: 1000px) {
+  .imagen-diseno-marcas {
+    display: flex;
+    flex-basis: auto;
+    height: fit-content;
+    width: 80%;
+    flex-grow: 1;
+    height: auto;
+  }
 }
 
 .diseno-marcas-caja-interna {
@@ -608,15 +608,8 @@ p {
 
 /*----------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------Corrección imágenes de Diseño web y Diseño marca*/
-.imagen-diseno-web,
-.imagen-diseno-marcas {
-  width: 50%;
-  flex-grow: 1;
-  height: auto;
-}
 @media (max-width: 1000px) {
-  .imagen-diseno-web,
-  .imagen-diseno-marcas {
+  .imagen-diseno-web, .imagen-diseno-marcas {
     width: 100%;
     flex-grow: 0;
   }
@@ -725,19 +718,120 @@ p {
   color: #F1F1F1;
 }
 
-.experiencia-seccion-completa, .call-to-action-general {
+.contacto-h1-caja-general {
   display: flex;
-  padding: 6.25rem;
+  padding: 5% 0;
+  padding-left: 5%;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0, 8rem;
+  gap: 1.25rem;
   align-self: stretch;
 }
+
+.contacto-pequeno {
+  color: #C0C0C0;
+}
+
+.contacto-titulo-h1 {
+  color: #F2B72F;
+}
+
+.parrafo-contacto {
+  color: #C0C0C0;
+  font-weight: 400 !important;
+  width: 80%;
+}
+
 @media (max-width: 600px) {
-  .experiencia-seccion-completa, .call-to-action-general {
-    padding: 12% 10%;
-    gap: 0.8rem;
+  .proyectos-h1-caja-general {
+    padding: 10% 8%;
   }
+}
+.seccion-contacto {
+  background-color: #F1F1F1;
+  width: 100%;
+  padding: 80px 0;
+}
+.seccion-contacto .container {
+  max-width: 100% !important;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.seccion-contacto .formulario-personalizado {
+  width: 100%;
+}
+.seccion-contacto .formulario-personalizado .label-estilo {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #0E1011;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+.seccion-contacto .formulario-personalizado .input-estilo {
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-color: #F1F1F1;
+  border: 1px solid #C0C0C0;
+  border-radius: 0;
+  color: #181A1B;
+  padding: 18px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.seccion-contacto .formulario-personalizado .input-estilo::placeholder {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #909090;
+  font-size: 0.95rem;
+}
+.seccion-contacto .formulario-personalizado .input-estilo:focus {
+  background-color: #F1F1F1;
+  border-color: #F2B72F;
+  box-shadow: none;
+  outline: none;
+}
+.seccion-contacto .formulario-personalizado .contenedor-boton-izq {
+  margin-top: 40px;
+}
+.seccion-contacto .formulario-personalizado .contenedor-boton-izq .boton-formulario-general {
+  background-color: #0E1011;
+  color: #F1F1F1;
+  border: none;
+  padding: 15px 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: background-color 0.4s ease;
+  cursor: pointer;
+}
+.seccion-contacto .formulario-personalizado .contenedor-boton-izq .boton-formulario-general:hover {
+  background-color: #F2B72F;
+  color: #0E1011;
+}
+.seccion-contacto .formulario-personalizado .contenedor-boton-izq .boton-formulario-general:active {
+  transform: translateY(2px);
+}
+
+.navbar {
+  background-color: #0E1011 !important;
+  color: #FFF !important;
+  justify-content: right;
+}
+
+.nav-link {
+  color: #FFF !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav-link {
+  color: #FFF !important;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
 }
 
 .footer-main {
@@ -784,6 +878,10 @@ p {
   }
 }
 
+.footer-texto:hover {
+  color: #F2B72F;
+  transform: translateY(-2px);
+}
 @media (max-width: 600px) {
   .footer-texto {
     font-size: 1.5rem !important;
