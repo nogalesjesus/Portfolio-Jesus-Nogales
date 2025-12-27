@@ -1,18 +1,10 @@
-
-
 /*--------------------------------------------------------PÁGINA DE PROYECTOS---------------------------------------------------------------------------------------*/
 
 /*-----------------------------------------------------H1 Título Proyectos*/
 
 .proyectos-h1-caja-general {
-        border-bottom: $amarillo-1 4px solid;
-        display: flex;
-        padding: 5% 0;
-        padding-left: 5%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
-        align-self: stretch;
+        @extend %cajareutilizable-1;
+
 }
 
 .proyectos-pequeno {
@@ -42,13 +34,7 @@
 
 .proyectos-h2-caja-general {
         background-color: $gris-1;
-        display: flex;
-        padding: 5% 0;
-        padding-left: 5%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
-        align-self: stretch;
+        @extend %cajareutilizable-1;
 }
 
 
@@ -74,13 +60,8 @@
 
 .proyectos-h2--marcas-caja-general {
         background-color: $gris-2;
-        display: flex;
-        padding: 5% 0;
-        padding-left: 5%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1.25rem;
-        align-self: stretch;
+        @extend %cajareutilizable-1;
+
 }
 
 

@@ -1,5 +1,5 @@
-@mixin estilo-textos($f-s, $f-w, $f-lineh) {
-  font-size: $f-s;
+@mixin estilo-textos ($f-s, $f-w, $f-lineh) {
+  font-size: $f-s !important;
   font-weight: $f-w;
   line-height: $f-lineh;
 }

@@ -131,7 +131,7 @@
 }
 
 .parrafo-iconos {
-    width: 80%;
+    width: 100%;
 }
 
 .manejo-y-controlo {
@@ -140,6 +140,10 @@
     padding-top: 2rem;
 }
 
+.texto-nombre-software {
+        @include estilo-textos (0.95rem, 400, 2.5rem);
+
+}
 
 
 /*----------------------------------------------------------------------------------Experiencia*/
