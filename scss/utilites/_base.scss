@@ -1,0 +1,53 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html {
+  font-size: 18px;
+}
+
+
+
+body {
+  background-color: $negro-1;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: $font-bricolage !important;
+  font-weight: 800;
+}
+
+
+
+
+button {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid $amarillo-1 !important;
+  border: none;
+  font-family: $font-bricolage !important;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 40.8px;
+  text-align: center;
+
+  background: none;
+  color: $blanco;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: rgba($amarillo-1, 0.1);
+    transform: translateY(-2px);
+  }
+}
+

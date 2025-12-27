@@ -1,0 +1,269 @@
+h1 {
+    font-family: $font-bricolage;
+    font-size: 8.7rem;
+    font-weight: 800;
+    line-height: 100%;
+
+    @media (max-width: 1000px) {
+        font-size: 6.7rem;
+    }
+
+
+    @media (max-width: 600px) {
+        font-size: 4.6rem !important;
+    }
+
+}
+
+
+h2 {
+    font-family: $font-bricolage;
+    font-size: 7.3rem;
+    font-weight: 800;
+    line-height: 100%;
+
+    @media (max-width: 1000px) {
+        font-size: 5.5rem;
+    }
+
+
+
+    @media (max-width: 600px) {
+        font-size: 3.3rem !important;
+    }
+}
+
+
+
+h3 {
+    font-family: $font-bricolage;
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 100%;
+
+    @media (max-width: 1000px) {
+        font-size: 3.8rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2.8rem !important;
+    }
+}
+
+
+
+
+h4 {
+    font-family: $font-bricolage;
+    font-size: 4.6rem;
+    font-weight: 800;
+    line-height: 100%;
+
+    @media (max-width: 1000px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2.1rem !important;
+    }
+
+}
+
+
+h5 {
+
+    font-family: $font-bricolage;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 100%;
+
+
+    @media (max-width: 1000px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 1.75rem !important;
+    }
+
+}
+
+
+
+
+h6 {
+
+    font-family: $font-bricolage;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 100%;
+
+    @media (max-width: 1000px) {
+        font-size: 1.5rem;
+    }
+
+
+    @media (max-width: 600px) {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+
+/*-------------------------------------------------*/
+
+
+
+/*---------Headings específicos, cambios tipografía con clase. Tipografía Inter-----------*/
+
+.h1-inter {
+    font-family: $font-inter;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+
+    @media (max-width: 1000px) {
+        font-size: 3.8rem;
+    }
+
+
+    @media (max-width: 600px) {
+        font-size: 2.75rem;
+        line-height: 100%;
+    }
+}
+
+
+.h2-inter {
+    font-family: $font-inter;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+
+
+    @media (max-width: 1000px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2.5rem;
+        line-height: 120%;
+    }
+
+}
+
+
+.h3-inter {
+    font-family: $font-inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    display: flex;
+
+    @media (max-width: 1000px) {
+        font-size: 2.2rem;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+}
+
+
+.h4-inter {
+    font-family: $font-inter !important;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    display: flex;
+
+    @media (max-width: 1000px) {
+        font-size: 1.7rem;
+    }
+
+
+    @media (max-width: 600px) {
+        font-size: 1.85rem;
+        line-height: 2.5rem;
+    }
+}
+
+
+.h5-inter {
+    font-family: $font-inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    display: flex;
+
+    @media (max-width: 1000px) {
+        font-size: 1.1rem;
+
+    }
+
+    @media (max-width: 600px) {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+}
+
+
+.h6-inter {
+    font-family: $font-inter;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    display: flex;
+
+
+    @media (max-width: 1000px) {
+        font-size: 1rem;
+
+    }
+}
+
+
+.p-xl {
+    font-family: $font-inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.p-l {
+    font-family: $font-inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+
+p {
+    color: $gris-2;
+    font-family: $font-inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+.p-s {
+    font-family: $font-inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.025rem;
+}

@@ -1,120 +1,264 @@
 @charset "UTF-8";
-/* Variables de color */
-h1 {
-  font-family: "Bricolage Grotesque";
-  font-size: 8.7rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
-}
-
-h2 {
-  font-family: "Bricolage Grotesque";
-  font-size: 7.3rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
-}
-
-h3 {
-  font-family: "Bricolage Grotesque";
-  font-size: 5.5rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
-}
-
-h4 {
-  font-family: "Bricolage Grotesque";
-  font-size: 4.6rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
-}
-
-h5 {
-  font-family: "Bricolage Grotesque";
-  font-size: 4rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
-}
-
-h6 {
-  font-family: "Bricolage Grotesque";
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 18px;
 }
 
-* ¨ {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: #0E1011;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-weight: 800;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid #F2B72F !important;
+  border: none;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 40.8px;
+  text-align: center;
+  background: none;
+  color: #FFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: rgba(242, 183, 47, 0.1);
+  transform: translateY(-2px);
+}
+
+h1 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 8.7rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 6.7rem;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 4.6rem !important;
+  }
+}
+
+h2 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 7.3rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 5.5rem;
+  }
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 3.3rem !important;
+  }
+}
+
+h3 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h3 {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 600px) {
+  h3 {
+    font-size: 2.8rem !important;
+  }
+}
+
+h4 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 4.6rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h4 {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 600px) {
+  h4 {
+    font-size: 2.1rem !important;
+  }
+}
+
+h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  h5 {
+    font-size: 1.75rem !important;
+  }
+}
+
+h6 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+@media (max-width: 1000px) {
+  h6 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  h6 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/*-------------------------------------------------*/
 /*---------Headings específicos, cambios tipografía con clase. Tipografía Inter-----------*/
 .h1-inter {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 5rem;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h1-inter {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 600px) {
+  .h1-inter {
+    font-size: 2.75rem;
+    line-height: 100%;
+  }
+}
 
 .h2-inter {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h2-inter {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 600px) {
+  .h2-inter {
+    font-size: 2.5rem;
+    line-height: 120%;
+  }
+}
 
 .h3-inter {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 400;
   line-height: 3rem;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h3-inter {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .h3-inter {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}
 
 .h4-inter {
-  font-family: "Inter" !important;
+  font-family: "Inter", sans-serif !important;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.5rem;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h4-inter {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 600px) {
+  .h4-inter {
+    font-size: 1.85rem;
+    line-height: 2.5rem;
+  }
+}
 
 .h5-inter {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h5-inter {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 600px) {
+  .h5-inter {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+}
 
 .h6-inter {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.625rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.625rem;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .h6-inter {
+    font-size: 1rem;
+  }
+}
 
 .p-xl {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -122,7 +266,7 @@ html {
 }
 
 .p-l {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 400;
@@ -131,49 +275,19 @@ html {
 
 p {
   color: #C0C0C0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 180%;
-  /* 2.025rem */
 }
 
 .p-s {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 2.025rem;
-}
-
-/*-------------------------------------------------*/
-/*---------Body y generales-----------*/
-body {
-  background-color: #0E1011;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  font-family: "Bricolage Grotesque" !important;
-  font-weight: 800;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  border-bottom: 2px solid #F2B72F !important;
-  border: none;
-  font-family: "Bricolage Grotesque" !important;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 40.8px;
-  text-align: center;
-  background: none;
-  width: fit-content;
-  color: #FFF;
-  box-shadow: none;
 }
 
 .navbar {
@@ -199,16 +313,19 @@ button {
   line-height: 100%;
 }
 
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*-------------------------------------------------*/
-/*---------------------------------DISEÑO ESPECÍFICO----------------------------------------------*/
-/*--------H1 y primera imagen ------------*/
+/*------------------------------------------------------------H1 y primera imagen ------------*/
 .imagen-inicial-home-h1 {
   padding-top: 0.3rem;
   display: flex;
   justify-content: flex-end;
+}
+@media (max-width: 600px) {
+  .imagen-inicial-home-h1 {
+    padding-top: 0.3rem;
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 0;
+  }
 }
 
 .caja-h1 {
@@ -244,8 +361,8 @@ button {
   color: #C0C0C0;
 }
 
-/*----------------------------------------------------------------*/
-/*-------------------------------------------H2 y logos*/
+/*--------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------H2 y logos*/
 .intro-logos-h2 {
   max-width: 70rem;
   width: 65%;
@@ -280,7 +397,7 @@ button {
 }
 
 .un-poco-de-todo-home {
-  color: var(--gris-4);
+  color: #606060;
   font-style: italic;
 }
 
@@ -294,17 +411,10 @@ button {
   padding-top: 2rem;
 }
 
-/*-----------------------------------------------------Experiencia*/
+/*----------------------------------------------------------------------------------Experiencia*/
 .experiencia-seccion-completa {
   background-color: #181A1B;
   border-top: #F2B72F 4px solid;
-  display: flex;
-  padding: 5% 0;
-  padding-left: 5%;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.25rem;
-  align-self: stretch;
 }
 
 .portfolio-pequeno {
@@ -322,7 +432,7 @@ button {
 }
 
 /*----------------------------------------------------------------*/
-/*-----------------------------------------------------Diseño Web y App*/
+/*----------------------------------------------------------------------------Diseño Web y App*/
 .diseno-web-general {
   background-color: #F1F1F1;
   display: flex;
@@ -331,12 +441,28 @@ button {
   border-top: #F2B72F 4px solid;
   border-bottom: #F2B72F 4px solid;
 }
+@media (max-width: 1000px) {
+  .diseno-web-general {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .imagen-diseno-web {
   display: flex;
   flex-basis: auto;
   width: fit-content;
   max-height: 20%;
+}
+@media (max-width: 1000px) {
+  .imagen-diseno-web {
+    display: flex;
+    flex-basis: auto;
+    height: fit-content;
+    width: 50%;
+    flex-grow: 1;
+    height: auto;
+  }
 }
 
 .diseno-web-y-app-caja-interna {
@@ -345,6 +471,11 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   width: fit-content;
+}
+@media (max-width: 1000px) {
+  .diseno-web-y-app-caja-interna {
+    padding: 12% 10%;
+  }
 }
 
 .un-poco-de-todo {
@@ -365,7 +496,7 @@ button {
 }
 
 /*----------------------------------------------------------------*/
-/*-----------------------------------------------------Diseño de Marca*/
+/*--------------------------------------------------------------------------Diseño de Marca*/
 .diseno-de-marcas-general {
   background-color: #F1F1F1;
   display: flex;
@@ -374,6 +505,13 @@ button {
   border-top: #F2B72F 4px solid;
   border-bottom: #F2B72F 4px solid;
   align-items: stretch;
+}
+@media (max-width: 1000px) {
+  .diseno-de-marcas-general {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 }
 
 .imagen-diseno-marcas {
@@ -389,6 +527,11 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   width: fit-content;
+}
+@media (max-width: 1000px) {
+  .diseno-marcas-caja-interna {
+    padding: 12% 10%;
+  }
 }
 
 .lo-que-no-tenia-hueco {
@@ -412,12 +555,6 @@ button {
 /*-----------------------------------------------------Call to Action*/
 .call-to-action-general {
   background-color: #F2B72F;
-  display: flex;
-  padding: 6.25rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0, 8rem;
-  align-self: stretch;
 }
 
 .call-to-action-pequeno {
@@ -439,6 +576,15 @@ button {
 }
 
 /*----------------------------------------------------------------*/
+.experiencia-seccion-completa, .call-to-action-general {
+  display: flex;
+  padding: 6.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0, 8rem;
+  align-self: stretch;
+}
+
 /*-----------------------------------------------------Footer*/
 .footer-main {
   background-color: #181A1B;
@@ -466,230 +612,11 @@ button {
 }
 
 /*----------------------------------------------------------------*/
-/*---------------------------------------------------------------------------------ADAPTACIÓN A TABLETS------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------------------------------*/
-@media (max-width: 1000px) {
-  /*---------Headings puros, sin clase. Tipografía Bricolage-----------*/
-  h1 {
-    font-family: "Bricolage Grotesque";
-    font-size: 6.7rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h2 {
-    font-family: "Bricolage Grotesque";
-    font-size: 5.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h3 {
-    font-family: "Bricolage Grotesque";
-    font-size: 3.8rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h4 {
-    font-family: "Bricolage Grotesque";
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h5 {
-    font-family: "Bricolage Grotesque";
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h6 {
-    font-family: "Bricolage Grotesque";
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  /*-------------------------------------------------*/
-  /*---------Headings específicos, cambios tipografía, con clase. Tipografía Inter-----------*/
-  .h1-inter {
-    font-family: "Inter";
-    font-size: 3.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    display: flex;
-  }
-  .h2-inter {
-    font-family: "Inter";
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    display: flex;
-  }
-  .h3-inter {
-    font-family: "Inter";
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 3rem;
-    display: flex;
-  }
-  .h4-inter {
-    font-family: "Inter" !important;
-    font-size: 1.7rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.5rem;
-    display: flex;
-  }
-  .h5-inter {
-    font-family: "Inter";
-    font-size: 1.1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem;
-    display: flex;
-  }
-  .h6-inter {
-    font-family: "Inter";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.625rem;
-    display: flex;
-  }
-  /*------------------------------------------------------------------------------------------Diseño Web y App*/
-  .diseno-web-general {
-    display: flex;
-    flex-direction: column;
-  }
-  .diseno-web-y-app-caja-interna {
-    padding: 12% 10%;
-  }
-  .imagen-diseno-web {
-    display: flex;
-    flex-basis: auto;
-    height: fit-content;
-    width: 50%;
-    flex-grow: 1;
-    height: auto;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Diseño de Marca*/
-  .diseno-de-marcas-general {
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-  }
-  .diseno-marcas-caja-interna {
-    padding: 12% 10%;
-  }
-  /*----------------------------------------------------------------*/
-}
+/*---------------------------------DISEÑO ESPECÍFICO----------------------------------------------*/
 /*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 600px) {
-  /*-----------------------------------------------------------------------------Headings puros, sin clase. Tipografía Bricolage*/
-  h1 {
-    font-family: "Bricolage Grotesque";
-    font-size: 4.6rem !important;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h2 {
-    font-family: "Bricolage Grotesque";
-    font-size: 3.3rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h3 {
-    font-family: "Bricolage Grotesque";
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h4 {
-    font-family: "Bricolage Grotesque";
-    font-size: 2.1rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h5 {
-    font-family: "Bricolage Grotesque";
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  h6 {
-    font-family: "Bricolage Grotesque";
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 100%;
-  }
-  /*---------------------------------------------------------------------------------------*/
-  /*-----------------------------------------------------------------------------Headings específicos, cambios tipografía, con clase. Tipografía Inter*/
-  .h1-inter {
-    font-family: "Inter";
-    font-size: 2.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
-    display: flex;
-  }
-  .h2-inter {
-    font-family: "Inter";
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-    display: flex;
-  }
-  .h3-inter {
-    font-family: "Inter";
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 3rem;
-    display: flex;
-  }
-  .h4-inter {
-    font-family: "Inter" !important;
-    font-size: 1.85rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.5rem;
-    display: flex;
-  }
-  .h5-inter {
-    font-family: "Inter";
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2rem;
-    display: flex;
-  }
-  /*-------------------------------------------------------------------------------*/
   /*------------------------------------------------------------------------------------------H1 y primera imagen */
-  .imagen-inicial-home-h1 {
-    padding-top: 0.3rem;
-    display: flex;
-    padding-left: 1.5rem;
-    padding-right: 0;
-  }
-  .imagen-inicial-home-h1 img {
-    display: block;
-    height: auto;
-  }
   .caja-h1 {
     align-items: left;
     padding: 3rem;
