@@ -1,6 +1,4 @@
 
-/*-----------------------------------------------------Footer*/
-
 .footer-main {
         background-color: $negro-2;
         display: flex;
@@ -8,6 +6,11 @@
         align-items: center;
         padding: 3.5rem;
         gap: 2.2rem;
+
+        @media (max-width: 600px) {
+                padding: 12% 10%;
+                gap: 2rem;
+        }
 }
 
 .caja-enlaces-footer {
@@ -16,6 +19,13 @@
         flex: auto;
         gap: 3.75rem;
         color: $blanco;
+
+        @media (max-width: 600px) {
+                display: flex;
+                flex-direction: row;
+                flex: auto;
+                gap: 1rem;
+        }
 }
 
 .guion-footer-amarillo {
@@ -24,6 +34,15 @@
 
 .footer-texto-final {
         font-size: 1.5rem !important;
+
+        @media (max-width: 600px) {
+                font-size: 1rem !important;
+        }
 }
 
-/*----------------------------------------------------------------*/
+.footer-texto {
+        @media (max-width: 600px) {
+                font-size: 1.5rem !important;
+        }
+}
+

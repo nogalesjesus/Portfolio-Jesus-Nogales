@@ -338,9 +338,24 @@ p {
   gap: 0.625rem;
   align-self: stretch;
 }
+@media (max-width: 600px) {
+  .caja-h1 {
+    align-items: left;
+    padding: 3rem;
+    display: flex;
+  }
+}
 
 .titular-principal {
   color: #FFF;
+}
+@media (max-width: 600px) {
+  .titular-principal {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
 }
 
 .guion-h1 {
@@ -372,6 +387,12 @@ p {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+@media (max-width: 600px) {
+  .intro-logos-h2 {
+    width: fit-content;
+    padding: 8% 12%;
+  }
+}
 
 .grilla-iconos-home {
   display: flex;
@@ -379,6 +400,16 @@ p {
   align-content: flex-start;
   gap: 1.875rem;
   flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .grilla-iconos-home {
+    display: grid column;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+    max-width: 59.9375rem;
+  }
 }
 
 .softwares-iconos-home {
@@ -429,6 +460,7 @@ p {
 
 .experiencia-h2 {
   color: #FFF;
+  display: flex;
 }
 
 /*----------------------------------------------------------------*/
@@ -443,7 +475,6 @@ p {
 }
 @media (max-width: 1000px) {
   .diseno-web-general {
-    display: flex;
     flex-direction: column;
   }
 }
@@ -459,7 +490,7 @@ p {
     display: flex;
     flex-basis: auto;
     height: fit-content;
-    width: 50%;
+    width: 80%;
     flex-grow: 1;
     height: auto;
   }
@@ -576,124 +607,6 @@ p {
 }
 
 /*----------------------------------------------------------------*/
-.experiencia-seccion-completa, .call-to-action-general {
-  display: flex;
-  padding: 6.25rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0, 8rem;
-  align-self: stretch;
-}
-
-/*-----------------------------------------------------Footer*/
-.footer-main {
-  background-color: #181A1B;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3.5rem;
-  gap: 2.2rem;
-}
-
-.caja-enlaces-footer {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-  gap: 3.75rem;
-  color: #FFF;
-}
-
-.guion-footer-amarillo {
-  color: #F2B72F;
-}
-
-.footer-texto-final {
-  font-size: 1.5rem !important;
-}
-
-/*----------------------------------------------------------------*/
-/*---------------------------------DISEÑO ESPECÍFICO----------------------------------------------*/
-/*---------------------------------------------------------------------------------ADAPTACIÓN A MOVIL------------------------------------------*/
-/*---------------------------------------------------------------------------------------------------------------------------------------------*/
-@media (max-width: 600px) {
-  /*------------------------------------------------------------------------------------------H1 y primera imagen */
-  .caja-h1 {
-    align-items: left;
-    padding: 3rem;
-    display: flex;
-  }
-  .titular-principal {
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------H2 y logos*/
-  .intro-logos-h2 {
-    width: fit-content;
-    padding: 8% 12%;
-  }
-  .grilla-iconos-home {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.875rem;
-    max-width: 59.9375rem;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Experiencia*/
-  .experiencia-seccion-completa {
-    padding: 12% 10%;
-    gap: 0.8rem;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Diseño Web y App*/
-  .diseno-web-general {
-    display: flex;
-    flex-direction: column;
-  }
-  .diseno-web-y-app-caja-interna {
-    padding: 12% 10%;
-    width: 50%;
-    flex-grow: 1;
-    height: auto;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Diseño de Marca*/
-  .diseno-de-marcas-general {
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-  }
-  .diseno-marcas-caja-interna {
-    padding: 12% 10%;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Call to Action*/
-  .call-to-action-general {
-    padding: 12% 10%;
-    gap: 0, 8rem;
-  }
-  /*----------------------------------------------------------------*/
-  /*------------------------------------------------------------------------------------------Footer*/
-  .footer-main {
-    padding: 12% 10%;
-    gap: 2rem;
-  }
-  .footer-texto {
-    font-size: 1.5rem !important;
-  }
-  .footer-texto-final {
-    font-size: 1rem !important;
-  }
-  .caja-enlaces-footer {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    gap: 1rem;
-  }
-  /*----------------------------------------------------------------*/
-}
 /*-----------------------------------------------------------------------------------------Corrección imágenes de Diseño web y Diseño marca*/
 .imagen-diseno-web,
 .imagen-diseno-marcas {
@@ -701,26 +614,29 @@ p {
   flex-grow: 1;
   height: auto;
 }
+@media (max-width: 1000px) {
+  .imagen-diseno-web,
+  .imagen-diseno-marcas {
+    width: 100%;
+    flex-grow: 0;
+  }
+}
 
 .imagen-diseno-web img,
 .imagen-diseno-marcas img {
   width: 100%;
-  /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
   height: 100%;
   display: block;
   object-fit: cover;
 }
-
 @media (max-width: 1000px) {
-  .imagen-diseno-web,
-  .diseno-web-y-app-caja-interna,
-  .imagen-diseno-marcas,
-  .diseno-marcas-caja-interna {
+  .imagen-diseno-web img,
+  .imagen-diseno-marcas img {
     width: 100%;
-    /* NOTA: Sé que no debía usar el 100% por las reglas de la entrega, pero no miento cuando digo que llevo horas probando y no doy con otro resultado D: sean pacientes conmigo*/
     flex-grow: 0;
   }
 }
+
 /*--------------------------------------------------------PÁGINA DE PROYECTOS---------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------H1 Título Proyectos*/
 .proyectos-h1-caja-general {
@@ -807,6 +723,71 @@ p {
 
 .texto-pequeno-slider {
   color: #F1F1F1;
+}
+
+.experiencia-seccion-completa, .call-to-action-general {
+  display: flex;
+  padding: 6.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0, 8rem;
+  align-self: stretch;
+}
+@media (max-width: 600px) {
+  .experiencia-seccion-completa, .call-to-action-general {
+    padding: 12% 10%;
+    gap: 0.8rem;
+  }
+}
+
+.footer-main {
+  background-color: #181A1B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.5rem;
+  gap: 2.2rem;
+}
+@media (max-width: 600px) {
+  .footer-main {
+    padding: 12% 10%;
+    gap: 2rem;
+  }
+}
+
+.caja-enlaces-footer {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  gap: 3.75rem;
+  color: #FFF;
+}
+@media (max-width: 600px) {
+  .caja-enlaces-footer {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    gap: 1rem;
+  }
+}
+
+.guion-footer-amarillo {
+  color: #F2B72F;
+}
+
+.footer-texto-final {
+  font-size: 1.5rem !important;
+}
+@media (max-width: 600px) {
+  .footer-texto-final {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-texto {
+    font-size: 1.5rem !important;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,100 @@
+
+
+/*--------------------------------------------------------PÁGINA DE PROYECTOS---------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------H1 Título Proyectos*/
+
+.proyectos-h1-caja-general {
+        border-bottom: $amarillo-1 4px solid;
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+.proyectos-pequeno {
+        color: $gris-2;
+}
+
+.proyectos-titulo-h1 {
+        color: $amarillo-1;
+}
+
+.parrafo-proyectos {
+        color: $gris-2;
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+@media (max-width: 600px) {
+        .proyectos-h1-caja-general {
+                padding: 10% 8%;
+        }
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Carrusel Diseño Web*/
+
+.proyectos-h2-caja-general {
+        background-color: $gris-1;
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+
+.proyectos-diseno-web-h2 {
+        color: $negro-1;
+        font-weight: 500;
+}
+
+.parrafo-proyectos-diseno-web {
+        color: $negro-2;
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+.texto-pequeno-slider {
+        color: $gris-1;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------Carrusel Diseño MARCAS*/
+
+.proyectos-h2--marcas-caja-general {
+        background-color: $gris-2;
+        display: flex;
+        padding: 5% 0;
+        padding-left: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.25rem;
+        align-self: stretch;
+}
+
+
+.proyectos-diseno-marcas-h2 {
+        color: $negro-1;
+        font-weight: 500;
+}
+
+.parrafo-proyectos-diseno-marcas {
+        color: $negro-2;
+        font-weight: 400 !important;
+        width: 80%;
+}
+
+.texto-pequeno-slider {
+        color: $gris-1;
+}
